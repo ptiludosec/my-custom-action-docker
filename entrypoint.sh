@@ -4,6 +4,7 @@
 MESSAGE="$1"
 
 # Générer un fichier contenant le message
+mkdir /output
 echo "Votre message : $MESSAGE" > /output/message.txt
 
 # Afficher le message dans les logs
