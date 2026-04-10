@@ -11,4 +11,4 @@ echo "Votre message : $MESSAGE" > /output/message.txt
 echo "Message généré : $MESSAGE"
 
 # Définir la sortie de l'action
-echo "output-message=Votre message : $MESSAGE" >> "$GITHUB_OUTPUT²
+echo "output-message=Votre message : $MESSAGE" >> "$GITHUB_OUTPUT"
